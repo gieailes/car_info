@@ -1,3 +1,5 @@
+pip
 django
+djangorestframework
 mysqlclient
 git

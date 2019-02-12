@@ -7,3 +7,5 @@ class Car(models.Model):
     model = models.CharField(max_length=100) 
     def __str__(self):
         return self.plate_num
+    class Meta:
+        ordering = ('plate_num',)
