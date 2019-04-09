@@ -1,0 +1,21 @@
+Coding homework.
+ 
+Story: User can register/store Lithuanian car number plates, their owner names and car model to web application through API and application should asynchronously retrieve Car model image using Celery Framework, store it locally and display later on
+
+Requirements:
+It does not require any authentication or authorization.
+The user should be able to do CRUD operations on car numbers stored in database.
+The API must be done using Django rest framework.
+Asynchronous car model image retrieval needs to be implemented using Celery Framework.
+Django and Celery should communicate through RabbitMQ broker.
+During development use version control (git) for your project and publish it to any public version control vendors – github, bitbucket, gitlab or any other you prefer.
+Put a small README.md file which shows how to launch the project in local environment.
+You can pick any database that Django supports.
+
+Optionally:
+Provide any tests for your code
+Create a Django admin view to access this data
+Think about input data validations
+Database and rabbitMQ containers provided through docker compose file to easily test this portable solution.
+Minimalistic design (render the forms as simply as possible)
+

@@ -1,0 +1,26 @@
+The default project name is the basename of the project directory. You can set a custom project name by using the -p command line option or the COMPOSE_PROJECT_NAME environment variable.
+
+django superuser - superadmin - superpass
+
+$ docker-compose up -d
+$ ./run_tests
+$ docker-compose down
+
+Consider defining an additional Compose file, say production.yml, which specifies production-appropriate configuration. 
+Make plate_num a primary key
+ssl in rabbit
+env vars rabbit with secrets
+
+CAR IMAGERY: http://www.carimagery.com/api.asmx/GetImageUrl?searchTerm=
+EX proj: https://github.com/sadmonad/django_example
+TESTS: https://www.django-rest-framework.org/api-guide/testing/#creating-test-requests
+
+to doc:
+install docker
+install compose
+create a db user (? maye it create in yml file)
+    create a superuser for the django admin
+run migrate on custom migrations file
+authentification
+yum install mysql-devel
+pip install mysqlclient
